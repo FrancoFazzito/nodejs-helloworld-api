@@ -9,28 +9,20 @@ pipeline {
             }
         }
         
-        stage('Build') {
-            steps {
-                // Build your Node.js app (if needed)
-                // For a basic "Hello World" app, this might not be necessary
-                sh 'npm run build'
-            }
-        }
-        
-        stage('Deploy') {
+        stage('test') {
             steps {
                 // Replace the placeholder with your deployment command
                 // For example, if you're using PM2 for process management:
-                sh 'npm start'
+                sh 'npm test'
             }
         }
         
-        stage('Verify') {
+        stage('start') {
             steps {
                 // Perform any verification steps here (e.g., run tests)
                 // For a simple "Hello World" app, this might not be necessary
                 // Replace the placeholder with your test command
-                sh 'npm test'
+                sh 'npm start'
             }
         }
     }
