@@ -1,10 +1,13 @@
 pipeline {
-    agent any
-
-    tools {
-        // Define Node.js installation
-        node 'nodejs' // 'nodejs' is the name of the Node.js installation configured in Jenkins
+    agent {
+        docker {
+            image 'node:6-alpine'
+            args '-p 3000:3000'
+        }
     }
+     environment {
+            CI = 'true'
+        }
 
     stages {
         stage('Install Dependencies') {
