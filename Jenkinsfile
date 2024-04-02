@@ -3,9 +3,9 @@ pipeline {
 
     tools {
         // Define Node.js installation
-        nodejs 'nodejs' // 'nodejs' is the name of the Node.js installation configured in Jenkins
+        node 'nodejs' // 'nodejs' is the name of the Node.js installation configured in Jenkins
     }
-    
+
     stages {
         stage('Install Dependencies') {
             steps {
