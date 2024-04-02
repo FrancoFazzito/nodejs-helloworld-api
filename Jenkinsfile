@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    tools {nodejs "node"}
+    tools {nodejs '21.7.1'}
     stages {
         stage('Install Dependencies') {
             steps {
