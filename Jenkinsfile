@@ -13,15 +13,6 @@ pipeline {
                 sh 'npm test'
             }
         }
-        
-        stage('Make Request to HelloWorld') {
-            steps {
-                script {
-                    def response = sh(script: "curl http://localhost:3000", returnStdout: true)
-                    echo "Response from HelloWorld: ${response}"
-                }
-            }
-        }
     }
     
     post {
