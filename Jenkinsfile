@@ -2,13 +2,6 @@ pipeline {
     agent any
     
     stages {
-        stage('Checkout') {
-            steps {
-                // Checkout the code from your version control system
-                git 'https://github.com/FrancoFazzito/nodejs-helloworld-api.git'
-            }
-        }
-        
         stage('Install Dependencies') {
             steps {
                 // Install Node.js dependencies
