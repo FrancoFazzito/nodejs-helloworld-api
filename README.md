@@ -88,7 +88,7 @@ curl http://localhost:3000
    
    (https://imgur.com/Y2ttBQM)
 
-# Diagrama de alto nivel CI/CD
+# Diagrama de alto nivel de la preparacion del CI/CD
 
 ```mermaid
 graph TD;
