@@ -49,7 +49,7 @@ curl http://localhost:3000
      ```
      https://08e9-152-170-177-208.ngrok-free.app/
      ```
-   - Inicia sesión en Jenkins con tus credenciales (usuario: franco / contraseña: admin).
+   - Inicia sesión en Jenkins con tus credenciales.
 
 4. **Configurar el webhook en GitHub:**
    - En tu repositorio en GitHub, ve a la sección de Configuración (Settings) y luego a Webhooks.
