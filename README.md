@@ -53,6 +53,7 @@ curl http://localhost:3000
 
    [Acceder a Jenkins]
    (https://imgur.com/yPxQseA)
+   
    [Iniciar sesión en Jenkins]
    (https://imgur.com/dvSbX7R)
 
@@ -66,6 +67,7 @@ curl http://localhost:3000
 
    [Configurar webhook en GitHub]
    (https://imgur.com/zXhBxI5)
+   
    [Seleccionar eventos en GitHub]
    (https://imgur.com/tXb3F9J)
 
@@ -83,6 +85,7 @@ curl http://localhost:3000
    - Para corroborar el funcionamiento y completar la documentación de este README se hicieron múltiples cambios dentro de la rama main y fueron exitosamente recibidos por el CD.
 
    (https://imgur.com/RbytQdm)
+   
    (https://imgur.com/Y2ttBQM)
 
 # Diagrama de alto nivel CI/CD
