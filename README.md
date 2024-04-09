@@ -80,7 +80,7 @@ curl http://localhost:3000
 9. **¡Listo para recibir commits!**
    - A partir de ahora, cada vez que hagas un commit en tu repositorio, Jenkins responderá automáticamente si es un push o pull request a la rama principal.
 
-   (https://imgur.com/hw1X8Qd)
+   (https://imgur.com/W6gDRYF)
 
    - Para corroborar el funcionamiento y completar la documentación de este README se hicieron múltiples cambios dentro de la rama main y fueron exitosamente recibidos por el CD.
 
