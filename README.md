@@ -51,10 +51,12 @@ curl http://localhost:3000
      ```
    - Inicia sesión en Jenkins con tus credenciales.
 
-   ![Acceder a Jenkins](https://imgur.com/yPxQseA)
-   ![Iniciar sesión en Jenkins](https://imgur.com/dvSbX7R)
+   [Acceder a Jenkins]
+   (https://imgur.com/yPxQseA)
+   [Iniciar sesión en Jenkins]
+   (https://imgur.com/dvSbX7R)
 
-4. **Configurar el webhook en GitHub:**
+5. **Configurar el webhook en GitHub:**
    - En tu repositorio en GitHub, ve a la sección de Configuración (Settings) y luego a Webhooks.
    - Agrega una nueva URL de webhook apuntando al siguiente enlace de ngrok seguido de `/github-webhook/`. Por ejemplo:
      ```
@@ -62,23 +64,28 @@ curl http://localhost:3000
      ```
    - Selecciona los eventos que deseas que desencadenen el webhook, como "push" y "pull request".
 
-   ![Configurar webhook en GitHub](https://imgur.com/zXhBxI5)
-   ![Seleccionar eventos en GitHub](https://imgur.com/tXb3F9J)
+   [Configurar webhook en GitHub]
+   (https://imgur.com/zXhBxI5)
+   [Seleccionar eventos en GitHub]
+   (https://imgur.com/tXb3F9J)
 
-5. **Configurar Jenkins para recibir notificaciones de GitHub:**
+7. **Configurar Jenkins para recibir notificaciones de GitHub:**
    - En Jenkins, configura un nuevo pipeline o proyecto.
    - Agrega las credenciales de GitHub y la URL del repositorio que deseas utilizar.
 
-   ![Configurar Jenkins](https://imgur.com/hw1X8Qd)
+   [Configurar Jenkins]
+   (https://imgur.com/hw1X8Qd)
 
-6. **¡Listo para recibir commits!**
+9. **¡Listo para recibir commits!**
    - A partir de ahora, cada vez que hagas un commit en tu repositorio, Jenkins responderá automáticamente si es un push o pull request a la rama principal.
 
-   ![Listo para recibir commits](https://imgur.com/hw1X8Qd)
+   [Listo para recibir commits]
+   (https://imgur.com/hw1X8Qd)
 
    - Para corroborar el funcionamiento y completar la documentación de este README se hicieron múltiples cambios dentro de la rama main y fueron exitosamente recibidos por el CD.
 
-   ![Corroborar funcionamiento](https://imgur.com/RbytQdm)
+   [Corroborar funcionamiento]
+   (https://imgur.com/RbytQdm)
 
 # Diagrama de alto nivel CI/CD
 
