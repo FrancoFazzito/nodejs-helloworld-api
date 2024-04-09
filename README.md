@@ -73,19 +73,17 @@ curl http://localhost:3000
    - En Jenkins, configura un nuevo pipeline o proyecto.
    - Agrega las credenciales de GitHub y la URL del repositorio que deseas utilizar.
 
-   [Configurar Jenkins]
    (https://imgur.com/hw1X8Qd)
 
 9. **¡Listo para recibir commits!**
    - A partir de ahora, cada vez que hagas un commit en tu repositorio, Jenkins responderá automáticamente si es un push o pull request a la rama principal.
 
-   [Listo para recibir commits]
    (https://imgur.com/hw1X8Qd)
 
    - Para corroborar el funcionamiento y completar la documentación de este README se hicieron múltiples cambios dentro de la rama main y fueron exitosamente recibidos por el CD.
 
-   [Corroborar funcionamiento]
    (https://imgur.com/RbytQdm)
+   (https://imgur.com/Y2ttBQM)
 
 # Diagrama de alto nivel CI/CD
 
