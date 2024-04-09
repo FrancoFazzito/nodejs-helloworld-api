@@ -51,8 +51,8 @@ curl http://localhost:3000
      ```
    - Inicia sesión en Jenkins con tus credenciales.
 
-![Imagen de ejemplo](https://imgur.com/yPxQseA)
-![Imagen de ejemplo](https://imgur.com/dvSbX7R)
+!(https://imgur.com/yPxQseA)
+!(https://imgur.com/dvSbX7R)
 
 4. **Configurar el webhook en GitHub:**
    - En tu repositorio en GitHub, ve a la sección de Configuración (Settings) y luego a Webhooks.
@@ -62,20 +62,20 @@ curl http://localhost:3000
      ```
    - Selecciona los eventos que deseas que desencadenen el webhook, como "push" y "pull request".
 
-![Imagen de ejemplo](https://imgur.com/zXhBxI5)
-![Imagen de ejemplo](https://imgur.com/tXb3F9J)
+(https://imgur.com/zXhBxI5)
+(https://imgur.com/tXb3F9J)
 
 5. **Configurar Jenkins para recibir notificaciones de GitHub:**
    - En Jenkins, configura un nuevo pipeline o proyecto.
    - Agrega las credenciales de GitHub y la URL del repositorio que deseas utilizar.
      
-![Imagen de ejemplo](https://imgur.com/hw1X8Qd)
+(https://imgur.com/hw1X8Qd)
 
 
 6. **¡Listo para recibir commits!**
    - A partir de ahora, cada vez que hagas un commit en tu repositorio, Jenkins responderá automáticamente si es un push o pull request a la rama principal.
 
-![Imagen de ejemplo](https://imgur.com/hw1X8Qd)
+(https://imgur.com/hw1X8Qd)
 
 
 
