@@ -31,7 +31,7 @@ curl http://localhost:3000
 
 # CI/CD
 
-# Tutorial para configurar Jenkins con ngrok
+# Tutorial para configurar Jenkins con ngrok (debajo estan adjuntos los links a las imagenes que muestran el ejemplo de forma grafica y muestra el correcto funcionamiento)
 
 1. **Instalar ngrok:**
    - Descarga ngrok desde [su sitio web](https://ngrok.com/download).
@@ -51,8 +51,9 @@ curl http://localhost:3000
      ```
    - Inicia sesión en Jenkins con tus credenciales.
 
-!(https://imgur.com/yPxQseA)
-!(https://imgur.com/dvSbX7R)
+(https://imgur.com/yPxQseA)
+
+(https://imgur.com/dvSbX7R)
 
 4. **Configurar el webhook en GitHub:**
    - En tu repositorio en GitHub, ve a la sección de Configuración (Settings) y luego a Webhooks.
@@ -63,6 +64,7 @@ curl http://localhost:3000
    - Selecciona los eventos que deseas que desencadenen el webhook, como "push" y "pull request".
 
 (https://imgur.com/zXhBxI5)
+
 (https://imgur.com/tXb3F9J)
 
 5. **Configurar Jenkins para recibir notificaciones de GitHub:**
@@ -77,6 +79,9 @@ curl http://localhost:3000
 
 (https://imgur.com/hw1X8Qd)
 
+   - Para corroborar el funcionamiento y completar la documentacion de este readme se hicieron multiples cambios dentro de la rama main y fueron exitosamente recibidos por el CD
+     
+(https://imgur.com/RbytQdm)
 
 
 # Diagrama alto nivel CI/CD
@@ -89,4 +94,3 @@ graph TD;
     D --> E[Configurar Jenkins];
     E --> F[¡Listo para recibir commits!];
 ```
-
