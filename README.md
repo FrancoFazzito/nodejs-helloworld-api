@@ -66,4 +66,14 @@ curl http://localhost:3000
 6. **¡Listo para recibir commits!**
    - A partir de ahora, cada vez que hagas un commit en tu repositorio, Jenkins responderá automáticamente si es un push o pull request a la rama principal.
 
+# Diagrama alto nivel CI/CD
+
+```mermaid
+graph TD;
+    A[Instalar ngrok] --> B[Ejecutar ngrok];
+    B --> C[Acceder a Jenkins];
+    C --> D[Configurar webhook en GitHub];
+    D --> E[Configurar Jenkins];
+    E --> F[¡Listo para recibir commits!];
+```
 
